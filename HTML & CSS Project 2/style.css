@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    max-width: 130rem;
+    margin: 0 auto;
+    padding: 0 120px;
+}
+
+/* designing navigation menu */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 65px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+li {
+    list-style: none;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.navbar img {
+    height: 40px;
+}
+
+.navbar ul li:hover {
+    text-decoration: underline;
+    font-weight: 900;
+}
+
+nav button {
+    background-color: blue;
+    padding: 5px 15px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 30px;
+}
+
+nav button:hover {
+    color: black;
+    background-color: red;
+    cursor: pointer;
+}
+
+/* designing main section */
+.main-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 45px;
+}
+
+/* designing left section */
+.main-left-section h1 {
+    font-size: 65px;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 75px;
+}
+
+.main-left-section h1 span {
+    color: #5955b3;
+}
+
+.main-left-section p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 25px;
+    color: #828282;
+    margin-top: 25px;
+}
+
+.main-left-section button {
+    background-color: blue;
+    padding: 5px 15px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 20px 0;
+    cursor: pointer;
+    margin-top: 70px
+}
+
+.main-left-section button:hover {
+    color: black;
+    background-color: red;
+}
+
+/* designing right section img */
+.main-right-section img {
+    height: 500px;
+}
